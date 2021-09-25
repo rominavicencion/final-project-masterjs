@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.left {
+    grid-column-start: 1; 
+    grid-column-end: 4; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+    min-height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.totals-info {
+    font-size: 14px;
+}
+
+p > span {
+    font-size: 10px;
+} 
+
+button{
+    background-color: #353b48;
+    color: white;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:disabled,
+button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.right {
+    background: #ecf0f1;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    grid-column-start: 4; 
+    grid-column-end: 5; 
+}
+
+#user-info {
+    padding: 5px;
+}
+
+.login {
+    padding-top: 10px;
+}
+
+h4 {
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.login-title {
+    padding-bottom: 5px;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+input {
+    padding: 5px;
+    margin: 2px;
+}
+
+.cart {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 14px;
+}
+
+.product-details {
+    grid-column-start: 1; 
+    grid-column-end: 4; 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container-img {
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+}
+
+.cart-img {
+    width: 40px;
+    height: 40px;
+}
+
+.product-info {
+    grid-column-start: 2; 
+    grid-column-end: 4; 
+}
+
+.totals {
+    grid-column-start: 1; 
+    grid-column-end: 4; 
+    margin-top: 20px;
+}
+
+.test {
+    background-color: green;
+    border: black 5px solid;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#message-payment {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

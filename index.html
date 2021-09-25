@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Final Project</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left" id="product-list"></div>
+
+        <div class="right">
+            
+            <div id="user-info" style="display: none;">
+                <p id="username-info"></p>
+            </div>
+            <div class="login" id="login-form">
+                <h4 class="login-title">Inicie Sesión</h4>
+                <form>
+                    <input id="username-input" placeholder="Nombre de Usuario" /> <br/>
+                    <input id="password-input" placeholder="Contraseña" /> <br/>
+                    <button id="login-btn">Iniciar Sesión</button>
+                    <p id="loading-text" style="display: none;"><span>...Cargando</span></p>
+                    <p id="error-text" style="display: none;"><span style="color: red;">Usuario y contraseñas incorrectos</span></p>
+                </form>
+            </div>
+
+            <h4>Carro de Compras</h4>
+            <div class="cart" id="cart-list"></div>
+
+            <div class="totals">
+                <p id="message-empty-cart" class="totals-info">Carrito Vacío.</p>
+                <p id="total-products" class="totals-info"></p>
+                <p id="shipping" class="totals-info"></p>
+                <br/>
+                <p id="final-total" style="font-size: 17px; font-weight: bold;"></p>
+                <p id="message-payment" class="totals-info"></p>
+                <button id="pay-button" disabled>Realizar Compra</button>
+            </div>
+            
+            <div class="test">
+                <h5>DATOS PARA DESARROLLO</h5>
+                <p>usuario: masterjs</p>
+                <p>contraseña: 123123</p>
+                <button id="btn-reset">Restaurar Productos</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/auth.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Aceite Vegetal Botella 1L - Belmont",
+        "price": 1900,
+        "stock": 2,
+        "img": "img/aceite.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Galleta Chips de Chocolate 150g - Marca Ecovida",
+        "price": 1230,
+        "stock": 3,
+        "img": "img/galleta.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Proteína Vegetal de Soya Bolsa 300g - Marca Gourmet",
+        "price": 1550,
+        "stock": 5,
+        "img": "img/carne-soya.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Té Verde con Menta 10 Bolsitas - Marca Twinings",
+        "price": 1700,
+        "stock": 4,
+        "img": "img/te.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Helado Paleta Vainilla 260g - Marca NotIcecream",
+        "price": 3190,
+        "stock": 3,
+        "img": "img/noticecream.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Nuggets Chicken Free 300g - Marca La Crianza",
+        "price": 2990,
+        "stock": 2,
+        "img": "img/free-chicken.jpeg"
+    }
+]
